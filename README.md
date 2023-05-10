@@ -1,5 +1,5 @@
 # project-terraform
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca7f1c92-2a72-4d31-8944-087cf6078786/Untitled.png)
+
 
 # region = ap-northeast-2
 # vpc = 2 (10.0.0.0/16, 172.30.0.0/24)
