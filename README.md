@@ -1,5 +1,5 @@
 # project-terraform
-
+![terraformvpc](https://github.com/songmozzi/project-terraform/assets/110387825/2e254cb1-cc18-4647-832c-212c2e74041a)
 
 # region = ap-northeast-2
 # vpc = 2 (10.0.0.0/16, 172.30.0.0/24)
