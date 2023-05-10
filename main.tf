@@ -95,7 +95,7 @@ resource "aws_route" "vpc2_to_vpc1" {
 
 resource "aws_ebs_volume" "eks-vol1" {
   availability_zone = "ap-northeast-2a"
-  size              = 40
+  size              = 50
 
   tags = {
     Name = "eks-vol1-a"
@@ -104,7 +104,7 @@ resource "aws_ebs_volume" "eks-vol1" {
 
 resource "aws_ebs_volume" "eks-vol2" {
   availability_zone = "ap-northeast-2b"
-  size              = 40
+  size              = 50
 
   tags = {
     Name = "eks-vol2-b"
@@ -113,7 +113,7 @@ resource "aws_ebs_volume" "eks-vol2" {
 
 resource "aws_ebs_volume" "eks-vol3" {
   availability_zone = "ap-northeast-2c"
-  size              = 40
+  size              = 50
 
   tags = {
     Name = "eks-vol3-c"
@@ -122,7 +122,7 @@ resource "aws_ebs_volume" "eks-vol3" {
 
 resource "aws_ebs_volume" "eks-vol4" {
   availability_zone = "ap-northeast-2a"
-  size              = 40
+  size              = 50
 
   tags = {
     Name = "eks-vol4-a"
@@ -131,7 +131,7 @@ resource "aws_ebs_volume" "eks-vol4" {
 
 resource "aws_ebs_volume" "eks-vol5" {
   availability_zone = "ap-northeast-2b"
-  size              = 40
+  size              = 50
 
   tags = {
     Name = "eks-vol5-b"
@@ -140,7 +140,7 @@ resource "aws_ebs_volume" "eks-vol5" {
 
 resource "aws_ebs_volume" "eks-vol6" {
   availability_zone = "ap-northeast-2c"
-  size              = 40
+  size              = 50
 
   tags = {
     Name = "eks-vol6-c"
@@ -171,7 +171,7 @@ module "eks" {
       instance_types = ["t3.medium"]
 
       min_size     = 3
-      max_size     = 6
+      max_size     = 7
       desired_size = 3
 
       block_device_mappings = [
